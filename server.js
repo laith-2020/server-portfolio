@@ -12,9 +12,9 @@ const server = express();
 // create a PORT number (3000)
 const PORT = process.env.PORT || 3000;
 
+//lkj
 // this line to run the files in folder public 
 server.use(express.static('./public'));
-
 
 // killall -s KILL node   (this command we write it inside the ubuntu to kill the process
 
